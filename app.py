@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("CJ Bot")
 
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+client = openAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "gpt-3.5-turbo"
