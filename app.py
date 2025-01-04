@@ -1,4 +1,4 @@
-import openAI
+import OpenAI
 import streamlit as st
 
 st.title("CJ Bot")
