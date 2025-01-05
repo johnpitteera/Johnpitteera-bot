@@ -5,7 +5,7 @@ from openai import OpenAI
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # Title of the app
-st.title("JOHN P ITTEERA")
+st.title("CJ's Chat aPP")
 
 # Initialize session state for chat history
 if "messages" not in st.session_state:
